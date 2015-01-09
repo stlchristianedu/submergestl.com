@@ -654,68 +654,68 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#register {
+section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#register .section-heading {
+section#contact .section-heading {
     color: #fff;
 }
 
-section#register .form-group {
+section#contact .form-group {
     margin-bottom: 25px;
 }
 
-section#register .form-group input,
-section#register .form-group textarea {
+section#contact .form-group input,
+section#contact .form-group textarea {
     padding: 20px;
 }
 
-section#register .form-group input.form-control {
+section#contact .form-group input.form-control {
     height: auto;
 }
 
-section#register .form-group textarea.form-control {
+section#contact .form-group textarea.form-control {
     height: 236px;
 }
 
-section#register .form-control:focus {
+section#contact .form-control:focus {
     border-color: #{{ site.color.primary }};
     box-shadow: none;
 }
 
-section#register::-webkit-input-placeholder {
+section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#register:-moz-placeholder {
+section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#register::-moz-placeholder {
+section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#register:-ms-input-placeholder {
+section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#register .text-danger {
+section#contact .text-danger {
     color: #e74c3c;
 }
 
