@@ -42,6 +42,7 @@ people:
       url: http://twitter.com/Jon_E_Mike
     - title: facebook
       url: http://www.facebook.com/jonmichael.d.brown
+      ignore: true
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
