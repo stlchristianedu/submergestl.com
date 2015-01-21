@@ -1,14 +1,15 @@
 language: ruby
 rvm:
 - 2.0.0
-script: ./script/cibuild
-
-# branch whitelist
+- 1.9.3
+script: bundle exec rake
 branches:
   only:
-    - gh-pages      # test the gh-pages branch
-    - /pages-(.*)/  # test every branch which starts with "pages-"
-
+  - gh-pages
+  - /pages-(.*)/
 env:
   global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true #speeds up installation of html-proofer
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+notifications:
+  slack:
+    secure: ghh3XlE14rh7yuLXviZv9r+9vOjwcAARYkmb+es8h0k57LWcqEGk7WEKtNY8QTYmIjeez7ne2mybqq85EhsgQRLiDBtRs7bsRFgFz6Q9iK+t1lslL0lLX8Ww1PuLA6ZM9bL8emsFSiJl3lBJYkU6Vpl8UH5z8awGAE9RAzDH/hw=
