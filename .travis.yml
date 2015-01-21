@@ -1,7 +1,8 @@
 language: ruby
 rvm:
 - 2.0.0
-script: rake
+- 1.9.3
+script:  bundle exec rake
 
 # branch whitelist
 branches:
@@ -12,3 +13,4 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true #speeds up installation of html-proofer
+  - CODECLIMATE_REPO_TOKEN=6c2897d7624992a7da96797c5e685ee3e0ee03c97321c4bd4c25bd4bb312f617

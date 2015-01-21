@@ -1,3 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
+
 require 'html/proofer'
 
 desc "clean"
