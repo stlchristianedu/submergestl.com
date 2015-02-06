@@ -128,3 +128,18 @@
         margin-right: inherit;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-default .nav li a {
+        letter-spacing: -1px;
+    }
+}
+
+.share-group .btn-info {
+    background-color: #{{ site.color.primary }};
+}
+
+.share-group .btn-info:hover,
+.share-group .btn-info:active {
+    background-color: #{{ site.color.secondary }};
+}
