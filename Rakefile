@@ -4,7 +4,9 @@ require 'html/proofer'
 
 desc "clean"
 task :clean do
-  rm_rf '_site'
+  if Dir.exists?('_site') then
+    rm_rf '_site'
+  end
 end
 
 desc "build the site"
