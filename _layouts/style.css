@@ -128,3 +128,12 @@
         margin-right: inherit;
     }
 }
+
+.share-group .btn-info {
+    background-color: #{{ site.color.primary }};
+}
+
+.share-group .btn-info:hover,
+.share-group .btn-info:active {
+    background-color: #{{ site.color.secondary }};
+}
