@@ -12,21 +12,27 @@ $(function() {
             var email = $("input#email").val();
             var phone = $("input#phone").val();
             var message = $("textarea#message").val();
+            var subject = $("input#_subject").val();
+            var gotcha = $("input#_gotcha").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
-                type: "POST",
+                url: "//formspree.io/admissions@stlchristian.edu",
+                method: "POST",
                 data: {
                     name: name,
-                    phone: phone,
                     email: email,
-                    message: message
+                    phone: phone,
+                    message: message,
+                    _subject: subject,
+                    _gotcha: gotcha,
+                    _replyto: email
                 },
                 cache: false,
+                dataType: "json",
                 success: function() {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
