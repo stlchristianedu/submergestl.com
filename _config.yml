@@ -28,18 +28,18 @@ people:
   position: Worship Pastor, Lighthouse Church
   social:
     - title: twitter
-      url: http://twitter.com/jordanhband
+      url: https://twitter.com/KiairaHoward
     - title: facebook
-      url: http://facebook.com/jordanhowertonband
+      url: https://www.facebook.com/khoward456
 
 - name: Jeremiah Howze
   pic: 3
   position: Youth Pastor, Gateway Christian Church
   social:
     - title: twitter
-      url: http://twitter.com/Jon_E_Mike
+      url: https://twitter.com/JeremiahHowze
     - title: facebook
-      url: http://www.facebook.com/jonmichael.d.brown
+      url: https://www.facebook.com/jerry.howze
       ignore: true
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
