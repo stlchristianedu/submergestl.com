@@ -267,8 +267,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    /*background-image: url(../img/forest-trail.jpg);*/
-    background-image: url(../img/trail-forest.jpg);
+    background-image: url(../img/forest-journey.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -288,6 +287,7 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
+    text-shadow: 1px 1px 25px #000, -1px -1px 25px #000;
 }
 
 header .intro-text .intro-heading {
@@ -297,6 +297,7 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+    text-shadow: 1px 1px 100px #000, -1px -1px 100px #000;
 }
 
 @media(min-width:768px) {
